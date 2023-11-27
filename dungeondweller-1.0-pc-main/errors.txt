@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 35: end of line expected.
+    gamemaster "What the thief lacks in physical strength, he makes up with stealth kills from behind" "There are some stealth tunnels that only the thief can use"
+                                                                                                       ^
+
+Ren'Py Version: Ren'Py 8.1.1.23060707
+Mon Nov 20 18:48:23 2023
