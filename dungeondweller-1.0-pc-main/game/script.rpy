@@ -127,12 +127,12 @@ label victory:
 label next:
     
     gamemaster "you have collected a treasure"
-    show frens at top
+    show frens at truecenter
 menu:
     "yes":
         show frens at left
-        "the info merchant wasn't completely lying"
-
+        Thief "the info merchant wasn't completely lying"
+        Thief "the box is locked, will have to carry it out of the dungeon"
         "locate a treasure extract point or reach the other end of the dungeon to claim the xp within"
     "no":
         scene bg hall
@@ -150,6 +150,7 @@ menu:
         Thief "i guess this is a good place to improve my skills for other challenges i will face"
         Thief "i hope i can find some vents i cant climb through to avoid combat"
         show stealth tunnel at truecenter
+        gamemaster "stealth tunnels are exclusive to high stealth players"
         
         jump combat
     "warrior":
@@ -320,7 +321,12 @@ menu:
 
 
 label exit:
+    
     gamemaster "you found the exit"
+    Thief "i'm never coming back"
     gamemaster "open your treasure boxes and count your xp to upgrade your strength, stealth, luck, health attributes"
+    Thief "there is a lot to learn from this adventure, i should take some time to improve my strength so that my next encounter will be easier"
     gamemaster "the next dungeons awaits you"
+    Thief "What dungeon?"
+   
 
